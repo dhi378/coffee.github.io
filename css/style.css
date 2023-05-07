@@ -1,0 +1,109 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Jost', sans-serif;  
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#herosection{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)) ,url(../images/top_BG.jpg);
+}
+
+.bg{
+    height: 200px;
+    
+}
+
+#prod{
+    background:url(../images/branch-bg.png);
+}
+
+.smoke{
+    background: url(../images/coffee-smoke.png) no-repeat center;
+
+}
+
+.cof{
+    background: url(../images/aroma_photo_01.jpg);
+    background-size: 100% 100%;
+}
+
+.cof2{
+    background: url(../images/aroma_photo_02.jpg);
+    background-size: 100% 100% ; 
+}
+
+#prod1{
+    background:url(../images/branch-bg.png) no-repeat right ;
+}
+
+.coffee{
+    background:url(../images/CUP_collage.jpg);
+    background-size: 100% 100%;
+}
+
+#video{
+    background: url(../images/grow-video-bg.jpg);
+}
+
+#counter{
+    background:linear-gradient(rgba(12, 255, 101, 0.2),rgb(0, 255, 145,0.4)), url(../images/green_parallax.jpg);
+    background-attachment:fixed;
+}
+
+#footer{
+    background: url(../images/footer-bg.jpg);
+}
+
+/* effects */
+
+.white:hover{
+    color: #fff !important;
+}
+
+.hov:hover .rotate{
+    transform:rotate(90deg);
+}
+.rotate{
+    position: relative;
+    z-index: -1;
+    transition: 1s;
+}
+
+.scale{
+   width: 70px;
+   height: 70px;
+   padding: 0;
+   left:50px;
+   transition: 1s ;
+
+}
+
+.hov:hover .scale{
+    transform: scale(1.2);
+   
+}
+
+
+
+
+.butt:hover {
+background-color: black !important; 
+color: aqua;
+
+}
+
+.butt2,.white{
+    transition: 1s;
+}
+
+.butt2:hover{
+    background-color:#fff !important;
+    color: black !important;
+}
